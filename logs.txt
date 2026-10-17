@@ -1,0 +1,1006 @@
+(.venv) rishidusad@Rishis-MacBook-Air 2d-valo-claude % python main.py
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.5)
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.64s | Action=attack | Reason=Enemy last seen, healthy, rules suggest attack.
+[TacticalAI] Decision ready in 0.64s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen, healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.17s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.17s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.67s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.67s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=100 | Lv100
+[Ollama] Requesting decision | HP=95 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.46s | Action=attack | Reason=Enemy last seen and healthy.
+[TacticalAI] Decision ready in 0.46s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen and healthy.'}
+[Bot] ENEMY 2: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.01s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 1.01s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.58s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.58s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=83 | Lv100
+[Ollama] Requesting decision | HP=83 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=95 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.44s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.44s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 2: planner chose attack | HP=95 | Lv100
+[Ollama] Response in 1.01s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.01s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=66 | Lv100
+[Ollama] Response in 1.56s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 1.56s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=66 | Lv100
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Requesting decision | HP=30 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=29 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=70 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.62s | Action=cover_peek | Reason=Enemy visible with 2 targets and low health.
+[TacticalAI] Decision ready in 0.62s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with 2 targets and low health.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=70 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 1: in cover
+[Tactics] ALLY: in cover
+[Tactics] ENEMY 1: peeking
+[Tactics] ENEMY 2: in cover
+[Ollama] Response in 1.25s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 1.25s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Bot] ALLY: planner chose cover_peek | HP=30 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.89s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.89s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=29 | Lv100
+[Ollama] Requesting decision | HP=30 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=29 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: in cover
+[Ollama] Response in 0.58s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 0.58s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=30 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ENEMY 1: peek timed out
+[Tactics] ENEMY 1: back in cover
+[Tactics] ALLY: returning to cover
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.19s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.19s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=45 | Lv100
+[Tactics] ALLY: back in cover
+[Ollama] Response in 1.74s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.74s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Tactics] ALLY: peeking
+[Bot] ENEMY 1: planner chose cover_peek | HP=29 | Lv100
+[Ollama] Requesting decision | HP=30 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=29 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: returning to cover
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 1: back in cover
+[Tactics] ALLY: back in cover
+[Ollama] Response in 0.62s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 0.62s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ALLY: planner chose cover_peek | HP=30 | Lv100
+[Tactics] ENEMY 1: peeking
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: in cover
+[Ollama] Response in 1.25s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.25s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=45 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 1.88s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.88s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=29 | Lv100
+[Tactics] ENEMY 2: in cover
+[Ollama] Requesting decision | HP=30 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=29 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 0.56s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 0.56s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=30 | Lv100
+[Tactics] ALLY: returning to cover
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.19s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.19s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=45 | Lv100
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 1.80s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.80s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=19 | Lv100
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: back in cover
+[Ollama] Requesting decision | HP=19 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 1: in cover
+[Ollama] Response in 0.58s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.58s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=45 | Lv100
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 1: peeking
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.13s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.13s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=19 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.73s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 1.73s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ALLY: peek timed out
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=19 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: peek timed out
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 0.54s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 0.54s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ENEMY 1: back in cover
+[Tactics] ALLY: back in cover
+[Ollama] Response in 1.12s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.12s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=45 | Lv100
+[Tactics] ENEMY 1: peeking
+[Tactics] ALLY: peeking
+[Ollama] Response in 1.76s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.76s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=19 | Lv100
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=19 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: peek timed out
+[Ollama] Response in 0.57s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 0.57s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=19 | Lv100
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ALLY: peek timed out
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 1.21s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 1.21s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=45 | Lv100
+[Tactics] ENEMY 1: back in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.82s | Action=cover_peek | Reason=Enemy HP critical and visible count is zero.
+[TacticalAI] Decision ready in 1.82s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count is zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ENEMY 1: peeking
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=19 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: back in cover
+[Ollama] Response in 0.61s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 0.61s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=45 | Lv100
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.20s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 1.20s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=19 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 1: back in cover
+[Ollama] Response in 1.79s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 1.79s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ENEMY 2: peeking
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=19 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=45 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: peeking
+[Tactics] ALLY: peek timed out
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 0.52s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 0.52s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=19 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 1: returning to cover
+[Ollama] Response in 1.10s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 1.10s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ENEMY 1: back in cover
+[Ollama] Response in 1.69s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.69s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Tactics] ALLY: back in cover
+[Bot] ENEMY 2: planner chose cover_peek | HP=40 | Lv100
+[Tactics] ENEMY 1: peeking
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=19 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Response in 0.50s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 0.50s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=14 | Lv100
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 1.12s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.12s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=35 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ENEMY 1: back in cover
+[Tactics] ALLY: peek timed out
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.64s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.64s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=4 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=30 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Response in 0.50s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 0.50s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.05s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.05s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Tactics] ALLY: back in cover
+[Bot] ENEMY 1: planner chose cover_peek | HP=4 | Lv100
+[Tactics] ENEMY 1: back in cover
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.65s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.65s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=25 | Lv100
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=4 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=25 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 0.62s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 0.62s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=25 | Lv100
+[Tactics] ENEMY 1: back in cover
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: peek timed out
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.25s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.25s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=4 | Lv100
+[Ollama] Response in 1.77s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.77s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=4 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=25 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Tactics] ALLY: back in cover
+[Ollama] Response in 0.58s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 0.58s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=4 | Lv100
+[Tactics] ENEMY 1: back in cover
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.18s | Action=cover_peek | Reason=Enemy HP critical and visible count is zero.
+[TacticalAI] Decision ready in 1.18s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=25 | Lv100
+[Ollama] Response in 1.70s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.70s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=4 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=25 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Tactics] ALLY: peek timed out
+[Tactics] ENEMY 1: back in cover
+[Ollama] Response in 0.57s | Action=cover_peek | Reason=Enemy HP critical and visible count is zero.
+[TacticalAI] Decision ready in 0.57s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=25 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.14s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.14s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=4 | Lv100
+[Ollama] Response in 1.65s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.65s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ALLY: back in cover
+[Ollama] Requesting decision | HP=20 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=15 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ALLY: peeking
+[Ollama] Response in 0.62s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 0.62s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=10 | Lv100
+[Tactics] ENEMY 2: back in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.14s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.14s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=20 | Lv100
+[Tactics] ALLY: peek timed out
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.48s | Action=attack | Reason=Enemy last seen and healthy.
+[TacticalAI] Decision ready in 0.48s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen and healthy.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.02s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.02s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.49s | Action=attack | Reason=Enemy last seen and healthy.
+[TacticalAI] Decision ready in 1.49s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen and healthy.'}
+[Bot] ENEMY 1: planner chose attack | HP=100 | Lv100
+[Ollama] Requesting decision | HP=85 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.53s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 0.53s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=95 | Lv100
+[Ollama] Response in 1.06s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.06s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=85 | Lv100
+[Ollama] Response in 1.55s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 1.55s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ALLY: planner chose attack | HP=55 | Lv100
+[Ollama] Requesting decision | HP=55 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=80 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=80 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.48s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.48s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Tactics] ALLY: cover cycle started
+[Bot] ENEMY 2: planner chose attack | HP=75 | Lv100
+[Ollama] Response in 1.12s | Action=cover_peek | Reason=Enemy visible with 2 targets and critical health.
+[TacticalAI] Decision ready in 1.12s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with 2 targets and critical health.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=80 | Lv100
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ALLY: in cover
+[Ollama] Response in 1.75s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.75s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ALLY: planner chose cover_peek | HP=2 | Lv100
+[Tactics] ALLY: peeking
+[Ollama] Requesting decision | HP=2 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=80 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=65 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: no reachable cover found
+[Ollama] Response in 0.49s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.49s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 2: planner chose attack | HP=65 | Lv100
+[Ollama] Response in 0.99s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.99s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 1: planner chose attack | HP=80 | Lv100
+[Tactics] ALLY: peek timed out
+[Ollama] Response in 1.60s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 1.60s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=2 | Lv100
+[Ollama] Requesting decision | HP=2 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=80 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=65 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: back in cover
+[Ollama] Response in 0.57s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 0.57s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=80 | Lv100
+[Tactics] ALLY: peeking
+[Ollama] Response in 1.18s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.18s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=65 | Lv100
+[Ollama] Response in 1.76s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.76s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=2 | Lv100
+[Tactics] ALLY: returning to cover
+[Ollama] Requesting decision | HP=2 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=80 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=65 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: back in cover
+[Tactics] ALLY: peeking
+[Ollama] Response in 0.67s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 0.67s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ALLY: planner chose cover_peek | HP=2 | Lv100
+[Tactics] ALLY: returning to cover
+[Tactics] ALLY: back in cover
+[Ollama] Response in 1.27s | Action=cover_peek | Reason=Enemy HP critical and visible count high.
+[TacticalAI] Decision ready in 1.27s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count high.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=65 | Lv100
+[Tactics] ENEMY 2: no reachable cover found
+[Tactics] ALLY: peeking
+[Ollama] Response in 1.89s | Action=attack | Reason=Enemy last seen, healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.89s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen, healthy, rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=80 | Lv100
+[Ollama] Requesting decision | HP=2 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=80 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=65 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.46s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.46s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 1: planner chose attack | HP=80 | Lv100
+[Ollama] Response in 0.95s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.95s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 2: planner chose attack | HP=65 | Lv100
+[Tactics] ALLY: peek timed out
+[Ollama] Response in 1.56s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 1.56s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=2 | Lv100
+[Tactics] ALLY: back in cover
+[Ollama] Requesting decision | HP=2 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=55 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: peeking
+[Ollama] Response in 0.63s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 0.63s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=40 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 2: in cover
+[Ollama] Response in 1.27s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 1.27s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=55 | Lv100
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ALLY: peek timed out
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.88s | Action=cover_peek | Reason=Enemy HP critical and visible count is zero.
+[TacticalAI] Decision ready in 1.88s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count is zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=2 | Lv100
+[Tactics] ENEMY 1: peeking
+[Ollama] Requesting decision | HP=2 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=55 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: back in cover
+[Tactics] ALLY: peeking
+[Ollama] Response in 0.62s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 0.62s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=55 | Lv100
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 1: returning to cover
+[Ollama] Response in 1.25s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 1.25s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=40 | Lv100
+[Tactics] ENEMY 1: back in cover
+[Tactics] ENEMY 2: back in cover
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.85s | Action=cover_peek | Reason=Enemy HP critical and visible count is zero.
+[TacticalAI] Decision ready in 1.85s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count is zero.'}
+[Ollama] Requesting decision | HP=55 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 0.61s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 0.61s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=40 | Lv100
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Response in 1.24s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 1.24s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=55 | Lv100
+[Tactics] ENEMY 1: back in cover
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ENEMY 2: back in cover
+[Ollama] Requesting decision | HP=55 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 0.61s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.61s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=55 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.22s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.22s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=40 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Requesting decision | HP=5 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 0.57s | Action=cover_peek | Reason=Enemy health is critical and hidden.
+[TacticalAI] Decision ready in 0.57s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is critical and hidden.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=40 | Lv100
+[Ollama] Response in 1.20s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.20s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 0.59s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.59s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=15 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.53s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 0.53s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 0.99s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.99s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 1: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.44s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 1.44s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=90 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.58s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 0.58s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=85 | Lv100
+[Ollama] Response in 1.13s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 1.13s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=50 | Lv100
+[Ollama] Response in 1.67s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.67s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=50 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=85 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.55s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 0.55s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.16s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.16s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=50 | Lv100
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: no reachable cover found
+[Ollama] Response in 1.75s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 1.75s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=85 | Lv100
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=50 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=73 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.55s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 0.55s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.13s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.14s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=61 | Lv100
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 1.76s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.76s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=38 | Lv100
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Requesting decision | HP=76 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=38 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=61 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 0.63s | Action=cover_peek | Reason=Enemy visible with 2 targets and critical health.
+[TacticalAI] Decision ready in 0.63s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with 2 targets and critical health.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=61 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.26s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.26s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=26 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.89s | Action=cover_peek | Reason=Enemy visible with 2 targets and low health.
+[TacticalAI] Decision ready in 1.89s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with 2 targets and low health.'}
+[Bot] ALLY: planner chose cover_peek | HP=66 | Lv100
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 1: in cover
+[Ollama] Requesting decision | HP=66 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=26 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Requesting decision | HP=56 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Ollama] Response in 0.60s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.60s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=51 | Lv100
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Ollama] Response in 1.25s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 1.25s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=26 | Lv100
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 1.88s | Action=cover_peek | Reason=Enemy visible with 2 targets and low health.
+[TacticalAI] Decision ready in 1.88s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with 2 targets and low health.'}
+[Bot] ALLY: planner chose cover_peek | HP=56 | Lv100
+[Ollama] Requesting decision | HP=51 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=26 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=41 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ALLY: in cover
+[Ollama] Response in 0.61s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 0.61s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ALLY: planner chose cover_peek | HP=46 | Lv100
+[Tactics] ALLY: cover cycle started
+[Ollama] Response in 1.24s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 1.24s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=26 | Lv100
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.86s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.86s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=41 | Lv100
+[Ollama] Requesting decision | HP=36 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=26 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=41 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Ollama] Response in 0.59s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 0.59s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=26 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.28s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.28s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ALLY: planner chose cover_peek | HP=36 | Lv100
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 1: peeking
+[Ollama] Response in 1.84s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.84s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=16 | Lv100
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Ollama] Requesting decision | HP=36 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=26 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=16 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 0.63s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 0.63s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Ollama] Response in 1.23s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.23s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=36 | Lv100
+[Ollama] Response in 1.82s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.82s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=26 | Lv100
+[Ollama] Requesting decision | HP=36 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=26 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.57s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.57s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=36 | Lv100
+[Tactics] ALLY: in cover
+[Tactics] ALLY: cover cycle started
+[Ollama] Response in 1.17s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 1.17s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=16 | Lv100
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.64s | Action=attack | Reason=Enemy last seen, healthy, rules suggest attack.
+[TacticalAI] Decision ready in 0.64s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen, healthy, rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.17s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 1.17s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 1: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.75s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.75s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=90 | Lv100
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=65 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 0.63s | Action=attack | Reason=Enemy last seen, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 0.63s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen, healthy, and rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.23s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.23s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=65 | Lv100
+[Ollama] Response in 1.80s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.80s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=65 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.43s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.43s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.09s | Action=cover_peek | Reason=Enemy visible with 2 targets and critical health.
+[TacticalAI] Decision ready in 1.09s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with 2 targets and critical health.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=65 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=28 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.59s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.59s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+(.venv) rishidusad@Rishis-MacBook-Air 2d-valo-claude % python main.py
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.5)
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.56s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.56s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.13s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.13s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=95 | Lv100
+[Ollama] Response in 1.69s | Action=attack | Reason=Enemy last seen nearby with healthy HP.
+[TacticalAI] Decision ready in 1.69s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen nearby with healthy HP.'}
+[Bot] ENEMY 1: planner chose attack | HP=95 | Lv100
+[Ollama] Requesting decision | HP=88 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=90 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=85 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.67s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 0.67s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=80 | Lv100
+[Ollama] Response in 1.29s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 1.29s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=76 | Lv100
+[Ollama] Response in 1.96s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 1.96s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=43 | Lv100
+[Ollama] Requesting decision | HP=52 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=65 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=43 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 0.63s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 0.63s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ALLY: planner chose cover_peek | HP=52 | Lv100
+[Tactics] ALLY: cover cycle started
+[Tactics] ALLY: in cover
+[Ollama] Response in 1.28s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.28s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ALLY: in cover
+[Ollama] Response in 1.78s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 1.78s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ENEMY 1: planner chose attack | HP=25 | Lv100
+[Tactics] ALLY: peeking
+[Ollama] Requesting decision | HP=28 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=25 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: in cover
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 0.67s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 0.67s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=28 | Lv100
+[Ollama] Response in 1.36s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.36s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.53s | Action=attack | Reason=Enemy last seen and healthy.
+[TacticalAI] Decision ready in 0.53s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen and healthy.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.04s | Action=attack | Reason=Enemy last seen and healthy.
+[TacticalAI] Decision ready in 1.04s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen and healthy.'}
+[Bot] ENEMY 1: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.64s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.64s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=100 | Lv100
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=100 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.58s | Action=attack | Reason=Enemy last seen nearby with no health info.
+[TacticalAI] Decision ready in 0.58s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy last seen nearby with no health info.'}
+[Bot] ALLY: planner chose attack | HP=100 | Lv100
+[Ollama] Response in 1.19s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.19s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 1: planner chose attack | HP=90 | Lv100
+[Ollama] Response in 1.77s | Action=attack | Reason=Enemy visible and healthy, rules suggest attack.
+[TacticalAI] Decision ready in 1.77s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy, rules suggest attack.'}
+[Bot] ENEMY 2: planner chose attack | HP=78 | Lv100
+[Ollama] Requesting decision | HP=95 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=40 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=78 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 1: cover cycle started
+[Ollama] Response in 0.68s | Action=cover_peek | Reason=Enemy visible with 2 targets and critical health.
+[TacticalAI] Decision ready in 0.68s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with 2 targets and critical health.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=78 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ENEMY 1: in cover
+[Ollama] Response in 1.28s | Action=attack | Reason=Enemy visible, healthy, and rules suggest attack.
+[TacticalAI] Decision ready in 1.28s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible, healthy, and rules suggest attack.'}
+[Bot] ALLY: planner chose attack | HP=85 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 1: peeking
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.91s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.91s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=28 | Lv100
+[Ollama] Requesting decision | HP=85 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=28 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=41 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.52s | Action=attack | Reason=Enemy visible and healthy.
+[TacticalAI] Decision ready in 0.52s: {'action': 'attack', 'target_id': None, 'reason': 'Enemy visible and healthy.'}
+[Bot] ALLY: planner chose attack | HP=85 | Lv100
+[Tactics] ENEMY 1: returning to cover
+[Tactics] ENEMY 1: cover cycle started
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Response in 1.13s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 1.13s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ENEMY 1: planner chose cover_peek | HP=16 | Lv100
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.81s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.81s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=41 | Lv100
+[Ollama] Requesting decision | HP=61 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=4 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=41 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 0.87s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 0.87s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Ollama] Response in 1.59s | Action=cover_peek | Reason=Enemy visible with low health and multiple enemies nearby.
+[TacticalAI] Decision ready in 1.59s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy visible with low health and multiple enemies nearby.'}
+[Bot] ALLY: planner chose cover_peek | HP=51 | Lv100
+[Tactics] ALLY: no reachable cover found
+[Ollama] Requesting decision | HP=46 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 2.22s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 2.22s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Bot] ENEMY 2: planner chose cover_peek | HP=31 | Lv100
+[Ollama] Response in 0.87s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.87s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=36 | Lv100
+[Tactics] ENEMY 2: in cover
+[Ollama] Response in 1.30s | Action=cover_peek | Reason=Enemy hurt with visible count of 2.
+[TacticalAI] Decision ready in 1.30s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt with visible count of 2.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: in cover
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Response in 0.70s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.70s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ENEMY 2: back in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.15s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.15s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ALLY: returning to cover
+[Tactics] ALLY: back in cover
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: peeking
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 0.70s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.70s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: returning to cover
+[Ollama] Response in 1.14s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.14s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ALLY: back in cover
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: peeking
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 0.67s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.67s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: returning to cover
+[Ollama] Response in 1.12s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 1.12s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=26 | Lv100
+[Tactics] ALLY: back in cover
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Requesting decision | HP=21 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 0.67s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.67s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: returning to cover
+[Ollama] Response in 1.08s | Action=cover_peek | Reason=Enemy HP critical and visible count zero.
+[TacticalAI] Decision ready in 1.08s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=11 | Lv100
+[Tactics] ALLY: back in cover
+[Tactics] ALLY: peeking
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Requesting decision | HP=6 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: back in cover
+[Ollama] Response in 0.67s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.68s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ENEMY 2: peeking
+[Tactics] ALLY: returning to cover
+[Ollama] Response in 1.09s | Action=cover_peek | Reason=Enemy HP critical and visible count is zero.
+[TacticalAI] Decision ready in 1.09s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and visible count is zero.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=6 | Lv100
+[Tactics] ALLY: back in cover
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: returning to cover
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Requesting decision | HP=6 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Response in 0.70s | Action=cover_peek | Reason=Enemy health is hurt and visible count is zero.
+[TacticalAI] Decision ready in 0.70s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy health is hurt and visible count is zero.'}
+[Bot] ALLY: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ALLY: returning to cover
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: in cover
+[Tactics] ALLY: peeking
+[Ollama] Response in 1.25s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 1.25s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=6 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: peeking
+[Ollama] Requesting decision | HP=31 | Actions=['attack', 'cover_peek', 'flank']
+[Ollama] Requesting decision | HP=6 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ALLY: returning to cover
+[Tactics] ENEMY 2: returning to cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: back in cover
+[Ollama] Response in 0.64s | Action=cover_peek | Reason=Enemy hurt and visible, peek to shoot.
+[TacticalAI] Decision ready in 0.64s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy hurt and visible, peek to shoot.'}
+[Bot] ALLY: planner chose cover_peek | HP=31 | Lv100
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Response in 1.10s | Action=cover_peek | Reason=Enemy critical health with visible count of 2.
+[TacticalAI] Decision ready in 1.10s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health with visible count of 2.'}
+[Bot] ENEMY 2: planner chose cover_peek | HP=6 | Lv100
+[Tactics] ALLY: returning to cover
+[Tactics] ALLY: back in cover
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: cover cycle started
+[Tactics] ENEMY 2: in cover
+[Tactics] ENEMY 2: cover cycle started
+[Ollama] Requesting decision | HP=21 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: in cover
+[Ollama] Requesting decision | HP=1 | Actions=['attack', 'cover_peek', 'flank']
+[Tactics] ENEMY 2: cover cycle started
+[Tactics] ALLY: in cover
+[Tactics] ENEMY 2: in cover
+[Ollama] Response in 0.65s | Action=cover_peek | Reason=Enemy HP critical and hidden.
+[TacticalAI] Decision ready in 0.65s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy HP critical and hidden.'}
+[Bot] ALLY: planner chose cover_peek | HP=21 | Lv100
+[Tactics] ALLY: peeking
+[Tactics] ENEMY 2: peeking
+[Ollama] Response in 1.17s | Action=cover_peek | Reason=Enemy critical health requires peeking to avoid damage.
+[TacticalAI] Decision ready in 1.17s: {'action': 'cover_peek', 'target_id': None, 'reason': 'Enemy critical health requires peeking to avoid damage.'}
